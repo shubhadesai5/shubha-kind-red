@@ -40,7 +40,7 @@ This project is an end-to-end test automation suite built using [Playwright](htt
    Ensure you have [Node.js](https://nodejs.org/) installed, then run:
    ```bash
    npx playwright install
-   npx playwright test --project=chromium
+   npx playwright test
   ```
 ## Note to the panelists
     Expect one case to fail
