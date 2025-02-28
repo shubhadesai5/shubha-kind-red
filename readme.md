@@ -45,6 +45,7 @@ This project is an end-to-end test automation suite built using [Playwright](htt
 ## Note to the panelists
     Expect one case to fail
     - End-to-End negative scenarios while purchasing a product › User should not be able to checkout without any items added to the cart
+    - Running the tests only on chrome at the moment
     
 ## Assumptions
     - The website uses stable data-test attributes for element identification.
