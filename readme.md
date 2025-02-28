@@ -36,12 +36,13 @@ This project is an end-to-end test automation suite built using [Playwright](htt
 
 ## How to Run the Tests
 
-1. **Run Tests:**  
+**Run Tests:**  
    Ensure you have [Node.js](https://nodejs.org/) installed, then run:
    ```bash
    npx playwright install
    npx playwright test
   ```
+
 ## Note to the panelists
     Expect one case to fail
     - End-to-End negative scenarios while purchasing a product › User should not be able to checkout without any items added to the cart
