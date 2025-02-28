@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Playwright test output and cache
+playwright-report/
+test-results/
+trace.zip
+.screenshots/
+.vscode/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+yarn-error.log
+pnpm-debug.log
+debug.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Playwright browsers (if installed using `npx playwright install`)
+ms-playwright/
