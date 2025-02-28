@@ -44,16 +44,16 @@ This project is an end-to-end test automation suite built using [Playwright](htt
   ```
 
 ## Note to the panelists
-    Expect one case to fail
-    - End-to-End negative scenarios while purchasing a product › User should not be able to checkout without any items added to the cart
-    - Running the tests only on chrome at the moment
+  Expect one case to fail
+  - End-to-End negative scenarios while purchasing a product › User should not be able to checkout without any items added to the cart
+  - Running the tests only on chrome at the moment
     
 ## Assumptions
-    - The website uses stable data-test attributes for element identification.
-    - Playwright’s built-in waiting and assertion mechanisms are sufficient for handling network latency and asynchronous operations.
-    - If there are no items in the cart, the user should not be able to proceed to checkout.
-    - The user should be able to purchase more than one quantity for a selected product.
-    - The focus of the tests is on flow and navigation rather than on verifying exact UI values. Data-test selectors are used instead of relying solely on visible text, though some variations (like button:has-text) are used where appropriate. Dedicated data-test hooks provided by developers ensure consistency throughout the test suite.
+  - The website uses stable data-test attributes for element identification.
+  - Playwright’s built-in waiting and assertion mechanisms are sufficient for handling network latency and asynchronous operations.
+  - If there are no items in the cart, the user should not be able to proceed to checkout.
+  - The user should be able to purchase more than one quantity for a selected product.
+  - The focus of the tests is on flow and navigation rather than on verifying exact UI values. Data-test selectors are used instead of relying solely on visible text, though some variations (like button:has-text) are used where appropriate. Dedicated data-test hooks provided by developers ensure consistency throughout the test suite.
 
 ## Conclusion
 This project demonstrates a production-grade approach to end-to-end testing. Tests are organized using modular Page Object Models, centralized test data, and common utilities. Detailed test scenarios, including negative scenarios, are documented in testScenarios.md to ensure decent coverage of the purchase process.
